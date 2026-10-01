@@ -1,16 +1,9 @@
-📦 Nazwa projektu: MoveMate
-Możemy roboczo nazwać firmę MoveMate.
 
-Hasło:
+Hasło : Przeprowadzka bez chaosu.
 
-Przeprowadzka bez chaosu.
-
-Logo:
-
-📦 MoveMate
+Logo: 📦 MoveMate
 
 Kolory:
-
 🟦 granat / ciemny niebieski — profesjonalizm
 
 🟩 zielony — wykonane zadania / sukces
@@ -265,7 +258,7 @@ Na dole 3 przyciski:
 
 💰 Dodaj wydatek
 
-🔥 Czyli finalna struktura
+ finalna struktura
 MoveMate
 │
 ├── 🏠 HOME
@@ -287,6 +280,65 @@ MoveMate
     ├── Liczba kartonów
     ├── Budżet
     └── Szybkie akcje
+📦 MoveMate — jak działa strona
+🏠 Strona główna
+Użytkownik wchodzi na stronę MoveMate.
+Widzi krótko wyjaśnione, do czego służy aplikacja.
+Może zobaczyć najważniejsze funkcje: checklistę, liczenie kartonów, budżet i organizację.
+Może kliknąć „Zaplanuj przeprowadzkę” i przejść do utworzenia konta lub logowania.
+Może również od razu przejść do logowania.
+🔐 Logowanie / rejestracja
+Użytkownik może zalogować się za pomocą e-maila i hasła.
+Jeśli nie ma konta, może je utworzyć.
+Podczas rejestracji podaje imię, e-mail i hasło.
+Użytkownik może również skorzystać z opcji resetowania hasła.
+Po zalogowaniu zostaje przeniesiony do swojego dashboardu.
+📋 Dashboard
+Dashboard jest głównym miejscem korzystania z aplikacji.
+Użytkownik widzi swoją przeprowadzkę i jej aktualny postęp.
+Na początku podaje podstawowe informacje, np.:
+miejsce wyjazdu,
+miejsce docelowe,
+datę przeprowadzki,
+liczbę osób.
+Na podstawie informacji aplikacja pokazuje podsumowanie przeprowadzki.
+✅ Checklista
+Aplikacja tworzy listę zadań związanych z przeprowadzką.
+Użytkownik może zaznaczać wykonane zadania.
+Wykonane zadania są oznaczane jako ukończone.
+Procent wykonanych zadań wpływa na ogólny postęp przeprowadzki.
+Użytkownik może przejść do pełnej checklisty.
+📦 Kartony
+Użytkownik podaje informacje potrzebne do oszacowania liczby kartonów.
+Aplikacja wylicza orientacyjną liczbę potrzebnych pudeł.
+Wynik może być podzielony na:
+małe,
+średnie,
+duże.
+Użytkownik może ponownie przeliczyć kartony, jeśli zmieni dane.
+💰 Budżet
+Użytkownik ustala planowany budżet przeprowadzki.
+Może dodawać wydatki.
+Aplikacja pokazuje:
+zaplanowany budżet,
+wydaną kwotę,
+pozostałą kwotę.
+Pasek pokazuje, jaka część budżetu została wykorzystana.
+🏷️ Organizacja
+Użytkownik może tworzyć oznaczenia dla kartonów.
+Każdy karton może mieć np. nazwę pomieszczenia lub zawartość.
+Dzięki temu użytkownik wie, co znajduje się w danym pudełku i gdzie powinno trafić.
+📊 Postęp
+MoveMate zbiera informacje z checklisty i innych elementów przeprowadzki.
+Dashboard pokazuje ogólny postęp.
+Użytkownik może na bieżąco sprawdzać, ile zostało jeszcze do zrobienia.
+👤 Konto
+Użytkownik ma własne konto.
+Jego dane i informacje o przeprowadzce są zapisane.
+Po ponownym zalogowaniu może wrócić do swojej przeprowadzki.
+Może się wylogować.
+🔄 Główny przepływ użytkownika
 
-Co ma robić storna :
-Storna ma        
+Strona główna → Rejestracja/Logowanie → Dane przeprowadzki → Dashboard → Checklista + Kartony + Budżet + Organizacja → Gotowa przeprowadzka
+
+Najważniejsza zasada: MoveMate ma być jednym miejscem, w którym użytkownik planuje, kontroluje i organizuje całą przeprowadzkę — bez potrzeby korzystania z kilku różnych aplikacji
