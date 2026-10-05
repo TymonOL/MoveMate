@@ -501,3 +501,235 @@ MoveMate ma być jednym miejscem, w którym użytkownik planuje, kontroluje i or
 Zamiast korzystać z kilku różnych aplikacji, notatek, arkuszy czy list, użytkownik ma mieć wszystko w jednym, prostym i przejrzystym miejscu.
 
 MoveMate = mniej chaosu, więcej kontroli i spokojniejsza przeprowadzka.
+
+# Komponenty # 
+# 🏠 Strona główna #
+Navbar
+
+Logo
+
+Hero
+
+Przyciski CTA
+
+Grafika Hero
+
+Sekcja funkcji
+
+Kafelki funkcji
+
+Sekcja „Jak to działa”
+
+Kafelki kroków
+
+Sekcja CTA
+
+Footer
+
+# 🔐 Logowanie #
+Logo
+
+Formularz logowania
+
+Input e-mail
+
+Input hasła
+
+Checkbox „Zapamiętaj mnie”
+
+Przycisk „Zaloguj się”
+
+Link „Nie pamiętasz hasła?”
+
+Link „Utwórz konto”
+
+# 📝 Rejestracja #
+Logo
+
+Formularz rejestracji
+
+Input imienia
+
+Input e-mail
+
+Input hasła
+
+Input powtórzenia hasła
+
+Checkbox regulaminu
+
+Przycisk „Utwórz konto”
+
+Link „Zaloguj się”
+
+# 🔑 Reset hasła #
+Logo
+
+Formularz resetowania hasła
+
+Input e-mail
+
+Przycisk wysłania linku
+
+Input nowego hasła
+
+Input powtórzenia hasła
+
+Przycisk zmiany hasła
+
+Link powrotu do logowania
+
+# 📋 Dashboard #
+Navbar
+
+User Menu
+
+Powitanie użytkownika
+
+Pasek postępu
+
+Karta przeprowadzki
+
+Karta checklisty
+
+Karta kartonów
+
+Karta budżetu
+
+Sekcja szybkich akcji
+
+# 📅 Informacje o przeprowadzce #
+Karta przeprowadzki
+
+Miejsce wyjazdu
+
+Miejsce docelowe
+
+Data przeprowadzki
+
+Liczba osób
+
+Szacowana liczba kartonów
+
+Przycisk „Zobacz szczegóły”
+
+# ✅ Checklista #
+Lista zadań
+
+Element zadania
+
+Checkbox zadania
+
+Status zadania
+
+Pasek postępu checklisty
+
+Przycisk „Dodaj zadanie”
+
+Przycisk „Edytuj zadanie”
+
+Przycisk „Usuń zadanie”
+
+Przycisk „Zobacz całą checklistę”
+
+# 📦 Kartony #
+Karta kartonów
+
+Liczba wszystkich kartonów
+
+Liczba małych kartonów
+
+Liczba średnich kartonów
+
+Liczba dużych kartonów
+
+Kalkulator kartonów
+
+Formularz kalkulatora
+
+Wynik kalkulacji
+
+Przycisk „Przelicz ponownie”
+
+# 💰 Budżet #
+Karta budżetu
+
+Planowany budżet
+
+Wydana kwota
+
+Pozostała kwota
+
+Pasek wykorzystania budżetu
+
+Lista wydatków
+
+Element wydatku
+
+Formularz dodawania wydatku
+
+Przycisk „Dodaj wydatek”
+
+Przycisk „Edytuj wydatek”
+
+Przycisk „Usuń wydatek”
+
+Przycisk „Zarządzaj budżetem”
+
+# 🏷️ Organizacja #
+Lista etykiet
+
+Karta etykiety
+
+Nazwa pomieszczenia
+
+Zawartość kartonu
+
+Formularz etykiety
+
+Podgląd etykiety
+
+Generator etykiet
+
+Przycisk „Generuj etykiety”
+
+Przycisk „Edytuj etykietę”
+
+Przycisk „Usuń etykietę”
+
+# ⚡ Szybkie akcje #
+„Oblicz kartony”
+
+„Generuj etykiety”
+
+„Dodaj wydatek”
+
+# 👤 Konto użytkownika #
+Profil użytkownika
+
+Avatar
+
+Imię i nazwisko
+
+E-mail
+
+Ustawienia konta
+
+Przycisk „Edytuj profil”
+
+Przycisk „Wyloguj”
+
+# ⚠️ Komponenty dodatkowe #
+Modal
+
+Modal potwierdzenia
+
+Komunikat sukcesu
+
+Komunikat błędu
+
+Loading
+
+Empty State
+
+Walidacja formularzy
