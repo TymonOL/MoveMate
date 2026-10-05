@@ -1,24 +1,49 @@
+📦 MoveMate — „Przeprowadzka bez chaosu”
+# 1. Koncepcja projektu #
 
-Hasło : Przeprowadzka bez chaosu.
+MoveMate to aplikacja, która pomaga użytkownikowi kompleksowo zaplanować i zorganizować przeprowadzkę w jednym miejscu.
 
-Logo: 📦 MoveMate
+Głównym celem aplikacji jest ograniczenie chaosu i stresu związanego z przeprowadzką poprzez połączenie najważniejszych funkcji w jednym systemie:
 
-Kolory:
-🟦 granat / ciemny niebieski — profesjonalizm
+tworzenie i obsługa checklisty,
 
-🟩 zielony — wykonane zadania / sukces
+planowanie przeprowadzki,
 
-⚪ biały — czystość i prostota
+obliczanie potrzebnej liczby kartonów,
 
-1. 🏠 HOME — strona główna
-To jest strona, którą użytkownik widzi jako pierwszą.
+kontrolowanie budżetu,
 
-Navbar
-Po lewej:
+organizowanie i oznaczanie kartonów,
+
+monitorowanie postępu przeprowadzki.
+
+Hasło aplikacji
+
+„Przeprowadzka bez chaosu.”
+
+Kolorystyka
+
+🟦 Granat / ciemny niebieski — profesjonalizm, zaufanie i stabilność.
+
+🟩 Zielony — wykonane zadania, sukces i postęp.
+
+⚪ Biały — prostota, przejrzystość i czystość interfejsu.
+
+Logo
 
 📦 MoveMate
 
-Po prawej:
+# 2. 🏠 Strona główna #
+
+Strona główna jest pierwszym miejscem, które użytkownik widzi po wejściu do aplikacji. Jej zadaniem jest szybkie przedstawienie idei MoveMate oraz zachęcenie użytkownika do rozpoczęcia planowania przeprowadzki.
+
+Navbar
+
+Po lewej stronie:
+
+📦 MoveMate
+
+Po prawej stronie:
 
 Strona główna
 
@@ -29,60 +54,94 @@ Zaloguj się
 [ Rozpocznij ]
 
 Hero
-Duży napis:
 
-Przeprowadzka bez chaosu.
-Pod nim:
+Główny nagłówek:
+
+„Przeprowadzka bez chaosu.”
+
+Opis:
 
 Zaplanuj swoją przeprowadzkę, przygotuj checklistę, policz potrzebne kartony i kontroluj postęp w jednym miejscu.
 
-Dwa przyciski:
+Przyciski:
 
-[ 🚀 Zaplanuj przeprowadzkę ]
+🚀 Zaplanuj przeprowadzkę
 
-[ Zaloguj się ]
+Zaloguj się
 
-Po prawej można dać prostą grafikę przedstawiającą kartony, samochód itd.
+Po prawej stronie może znajdować się prosta, nowoczesna grafika przedstawiająca kartony, samochód przeprowadzkowy, mieszkanie lub inne elementy związane z przeprowadzką.
 
-„Wszystko w jednym miejscu”
-3–4 kafelki:
+# 3. „Wszystko w jednym miejscu” #
+
+Sekcja przedstawia najważniejsze funkcje aplikacji w formie 3–4 kafelków.
 
 📋 Checklista
+
 Nigdy nie zapomnij o ważnym zadaniu.
 
+Użytkownik otrzymuje listę zadań związanych z przeprowadzką i może na bieżąco oznaczać je jako wykonane.
+
 📦 Kartony
+
 Oblicz, ile pudeł potrzebujesz.
 
+Aplikacja na podstawie podanych informacji szacuje liczbę potrzebnych kartonów i dzieli je na różne rozmiary.
+
 💰 Budżet
+
 Kontroluj koszty przeprowadzki.
 
-🏷️ Organizacja
-Oznacz kartony i uporządkuj rzeczy.
+Użytkownik ustala budżet, dodaje wydatki i może sprawdzać, ile pieniędzy zostało do wykorzystania.
 
-Jak to działa?
+🏷️ Organizacja
+
+Oznacz kartony i uporządkuj swoje rzeczy.
+
+Użytkownik może tworzyć oznaczenia kartonów, np. według pomieszczeń lub ich zawartości.
+
+# 4. Jak to działa? #
+
+Proces korzystania z MoveMate jest prosty i składa się z trzech podstawowych etapów.
+
 01 — Podaj informacje
-Powiedz nam, kiedy i dokąd się przeprowadzasz.
+
+Użytkownik podaje podstawowe informacje dotyczące przeprowadzki, np.:
+
+miejsce wyjazdu,
+
+miejsce docelowe,
+
+datę przeprowadzki,
+
+liczbę osób.
 
 02 — Otrzymaj plan
-Stworzymy dla Ciebie checklistę.
+
+Na podstawie podanych informacji aplikacja przygotowuje odpowiedni plan oraz checklistę zadań związanych z przeprowadzką.
 
 03 — Odznaczaj zadania
-Kontroluj postęp aż do dnia przeprowadzki.
 
-CTA
-Na dole:
+Użytkownik wykonuje kolejne zadania i zaznacza je jako ukończone. Dzięki temu może na bieżąco kontrolować postęp aż do dnia przeprowadzki.
 
-Gotowy na przeprowadzkę?
+# 5. CTA — rozpoczęcie korzystania #
+
+Na dole strony znajduje się sekcja zachęcająca użytkownika do rozpoczęcia planowania.
+
+„Gotowy na przeprowadzkę?”
+
 Zacznij planować i pozbądź się chaosu.
+
+Przycisk:
 
 [ Rozpocznij za darmo → ]
 
-Footer
+# 6. Footer #
+
+Footer zawiera podstawowe informacje oraz odnośniki do najważniejszych podstron.
+
 MoveMate
 
 Przeprowadzka bez chaosu.
-
-Kolumny:
 
 Produkt
 
@@ -108,29 +167,33 @@ Na samym dole:
 
 © 2026 MoveMate. Wszystkie prawa zastrzeżone.
 
-2. 🔐 LOGIN / REJESTRACJA
-Drugą stronę zrobiłbym jako stronę logowania.
+# 7. 🔐 Logowanie / rejestracja #
 
-Logo
-📦 MoveMate
+Drugą główną częścią aplikacji jest system logowania i rejestracji użytkownika.
 
 Logowanie
-Witaj ponownie 👋
+
+Na górze:
+
+📦 MoveMate
+
+Następnie:
+
+„Witaj ponownie 👋”
+
 Zaloguj się, aby wrócić do swojej przeprowadzki.
+
+Formularz:
 
 E-mail
 
-[ example@email.com ]
-
 Hasło
-
-[ •••••••••• ]
 
 ☐ Zapamiętaj mnie
 
 [ Zaloguj się ]
 
-Pod spodem:
+Dodatkowe opcje:
 
 Nie masz jeszcze konta?
 
@@ -140,55 +203,67 @@ oraz:
 
 Nie pamiętasz hasła?
 
-Rejestracja
-Po kliknięciu „Utwórz konto”:
+[ Resetuj hasło ]
 
-Stwórz konto
+# 8. Rejestracja #
+
+Po wybraniu opcji „Utwórz konto” użytkownik przechodzi do formularza rejestracyjnego.
+
+„Stwórz konto”
+
+Formularz zawiera:
+
 Imię
-
-[ Jan ]
 
 E-mail
 
-[ jan@email.com ]
-
 Hasło
-
-[ •••••••••• ]
 
 Powtórz hasło
 
-[ •••••••••• ]
-
 ☐ Akceptuję regulamin i politykę prywatności
+
+Przycisk:
 
 [ Utwórz konto ]
 
-3. 📋 PANEL UŻYTKOWNIKA
-To jest najważniejsza strona po zalogowaniu.
+Po poprawnym utworzeniu konta użytkownik zostaje przeniesiony do aplikacji i może rozpocząć konfigurację swojej przeprowadzki.
 
-Navbar:
+# 9. 📋 Panel użytkownika — Dashboard #
+
+Dashboard jest najważniejszą częścią aplikacji. To właśnie tutaj użytkownik zarządza całą swoją przeprowadzką.
+
+Navbar
+
+Po lewej:
 
 📦 MoveMate
 
 Po prawej:
 
 👤 Jan Kowalski
+
 Wyloguj
 
-Dashboard
-Duży nagłówek:
+# 10. Główny postęp przeprowadzki#
 
-Cześć, Jan! 👋
+Na samej górze dashboardu znajduje się najważniejsza informacja dotycząca aktualnego stanu przeprowadzki.
+
+„Cześć, Jan! 👋”
+
 Twoja przeprowadzka jest już w 42% gotowa.
 
-Pasek postępu
-████████████░░░░░░░░░░░░
+Pod spodem znajduje się pasek postępu:
+
+███████████░░░░░░░░░░░░
 
 42%
 
-📅 Twoja przeprowadzka
-Duży kafelek:
+Procent postępu jest obliczany na podstawie wykonanych zadań i aktualnego stanu przygotowań.
+
+# 11. 📅 Informacje o przeprowadzce #
+
+Duży kafelek przedstawiający najważniejsze informacje:
 
 🏠 Przeprowadzka
 
@@ -200,57 +275,113 @@ Warszawa → Kraków
 
 📦 Szacunkowo 35 kartonów
 
+Przycisk:
+
 [ Zobacz szczegóły → ]
 
-✅ Checklista
-Największa sekcja dashboardu.
+# 12. ✅ Checklista #
 
-Twoje zadania
+Checklista jest jedną z najważniejszych funkcji MoveMate.
+
+„Twoje zadania”
+
+Przykładowe zadania:
+
 ☑ Zarezerwować samochód
+
 ☑ Kupić kartony
+
 ☑ Powiadomić dostawcę internetu
+
 ☐ Spakować kuchnię
+
 ☐ Spakować łazienkę
+
 ☐ Przygotować dokumenty
+
 ☐ Spisać liczniki
+
+Użytkownik może zaznaczać kolejne zadania jako wykonane.
+
+Wykonane zadania są wizualnie oznaczone jako ukończone, a ich realizacja wpływa na ogólny procent postępu przeprowadzki.
+
+Przycisk:
 
 [ Zobacz całą checklistę → ]
 
-📦 Kartony
-Mały kafelek:
+# 13. 📦 Kartony #
 
-Kartony
+Kolejna sekcja dashboardu służy do kontrolowania liczby potrzebnych kartonów.
+
+„Kartony”
+
 Potrzebujesz około:
 
 35–40 📦
 
+Podział:
+
 Małe: 10
+
 Średnie: 20
+
 Duże: 7
+
+Przycisk:
 
 [ Przelicz ponownie ]
 
-💰 Budżet
-Kolejny kafelek:
+Użytkownik może ponownie wykonać obliczenia, jeżeli zmieni informacje dotyczące swojej przeprowadzki.
 
-Budżet
-Planowany:
-2 000 zł
+# 14. 💰 Budżet #
 
-Wydano:
-1 240 zł
+Sekcja budżetu pozwala kontrolować wydatki związane z przeprowadzką.
 
-Pozostało:
-760 zł
+„Budżet”
 
-Pasek:
+Planowany: 2 000 zł
 
-████████████░░░░ 62%
+Wydano: 1 240 zł
+
+Pozostało: 760 zł
+
+Pasek wykorzystania budżetu:
+
+████████████░░░░
+
+62%
+
+Przycisk:
 
 [ Zarządzaj budżetem → ]
 
-🏷️ Szybkie akcje
-Na dole 3 przyciski:
+Użytkownik może dodawać kolejne wydatki i na bieżąco sprawdzać, ile pieniędzy pozostało.
+
+# 15. 🏷️ Organizacja kartonów #
+
+MoveMate umożliwia również uporządkowanie rzeczy znajdujących się w kartonach.
+
+Użytkownik może tworzyć oznaczenia, np.:
+
+Kuchnia
+
+Łazienka
+
+Sypialnia
+
+Salon
+
+Dokumenty
+
+Elektronika
+
+Każdy karton może posiadać nazwę, pomieszczenie oraz informację o jego zawartości.
+
+Dzięki temu po przeprowadzce użytkownik łatwiej odnajduje potrzebne rzeczy i wie, gdzie powinien trafić konkretny karton.
+
+# 16. 🏷️ Szybkie akcje #
+
+Na dole dashboardu znajdują się najczęściej używane funkcje w formie szybkich przycisków:
 
 📦 Oblicz kartony
 
@@ -258,87 +389,115 @@ Na dole 3 przyciski:
 
 💰 Dodaj wydatek
 
- finalna struktura
-MoveMate
-│
-├── 🏠 HOME
-│   ├── Hero
-│   ├── Funkcje
-│   ├── Jak działa
-│   ├── CTA
-│   └── Footer
-│
-├── 🔐 LOGIN / REGISTER
-│   ├── Logowanie
-│   ├── Rejestracja
-│   └── Reset hasła
-│
-└── 📋 DASHBOARD
-    ├── Postęp przeprowadzki
-    ├── Informacje o przeprowadzce
-    ├── Checklista
-    ├── Liczba kartonów
-    ├── Budżet
-    └── Szybkie akcje
-📦 MoveMate — jak działa strona
-🏠 Strona główna
-Użytkownik wchodzi na stronę MoveMate.
-Widzi krótko wyjaśnione, do czego służy aplikacja.
-Może zobaczyć najważniejsze funkcje: checklistę, liczenie kartonów, budżet i organizację.
-Może kliknąć „Zaplanuj przeprowadzkę” i przejść do utworzenia konta lub logowania.
-Może również od razu przejść do logowania.
-🔐 Logowanie / rejestracja
-Użytkownik może zalogować się za pomocą e-maila i hasła.
-Jeśli nie ma konta, może je utworzyć.
-Podczas rejestracji podaje imię, e-mail i hasło.
-Użytkownik może również skorzystać z opcji resetowania hasła.
-Po zalogowaniu zostaje przeniesiony do swojego dashboardu.
-📋 Dashboard
-Dashboard jest głównym miejscem korzystania z aplikacji.
-Użytkownik widzi swoją przeprowadzkę i jej aktualny postęp.
-Na początku podaje podstawowe informacje, np.:
-miejsce wyjazdu,
-miejsce docelowe,
-datę przeprowadzki,
-liczbę osób.
-Na podstawie informacji aplikacja pokazuje podsumowanie przeprowadzki.
-✅ Checklista
-Aplikacja tworzy listę zadań związanych z przeprowadzką.
-Użytkownik może zaznaczać wykonane zadania.
-Wykonane zadania są oznaczane jako ukończone.
-Procent wykonanych zadań wpływa na ogólny postęp przeprowadzki.
-Użytkownik może przejść do pełnej checklisty.
-📦 Kartony
-Użytkownik podaje informacje potrzebne do oszacowania liczby kartonów.
-Aplikacja wylicza orientacyjną liczbę potrzebnych pudeł.
-Wynik może być podzielony na:
-małe,
-średnie,
-duże.
-Użytkownik może ponownie przeliczyć kartony, jeśli zmieni dane.
-💰 Budżet
-Użytkownik ustala planowany budżet przeprowadzki.
-Może dodawać wydatki.
-Aplikacja pokazuje:
-zaplanowany budżet,
-wydaną kwotę,
-pozostałą kwotę.
-Pasek pokazuje, jaka część budżetu została wykorzystana.
-🏷️ Organizacja
-Użytkownik może tworzyć oznaczenia dla kartonów.
-Każdy karton może mieć np. nazwę pomieszczenia lub zawartość.
-Dzięki temu użytkownik wie, co znajduje się w danym pudełku i gdzie powinno trafić.
-📊 Postęp
-MoveMate zbiera informacje z checklisty i innych elementów przeprowadzki.
-Dashboard pokazuje ogólny postęp.
-Użytkownik może na bieżąco sprawdzać, ile zostało jeszcze do zrobienia.
-👤 Konto
-Użytkownik ma własne konto.
-Jego dane i informacje o przeprowadzce są zapisane.
-Po ponownym zalogowaniu może wrócić do swojej przeprowadzki.
-Może się wylogować.
-🔄 Główny przepływ użytkownika
+Dzięki temu użytkownik może szybko wykonać najważniejsze działania bez konieczności przechodzenia przez kolejne podstrony.
 
-Strona główna → Rejestracja/Logowanie → Dane przeprowadzki → Dashboard → Checklista + Kartony + Budżet + Organizacja → Gotowa przeprowadzka
+# 17. 📊 System postępu #
 
-Najważniejsza zasada: MoveMate ma być jednym miejscem, w którym użytkownik planuje, kontroluje i organizuje całą przeprowadzkę — bez potrzeby korzystania z kilku różnych aplikacji
+MoveMate zbiera informacje z różnych elementów aplikacji i prezentuje je jako jeden ogólny postęp przeprowadzki.
+
+Postęp może uwzględniać przede wszystkim:
+
+wykonane zadania,
+
+przygotowanie do przeprowadzki,
+
+organizację kartonów,
+
+kontrolę budżetu.
+
+Dzięki temu użytkownik zawsze wie, ile zostało już zrobione i ile jeszcze pozostało do wykonania.
+
+# 18. 👤 Konto użytkownika #
+
+Każdy użytkownik posiada własne konto, na którym przechowywane są informacje dotyczące jego przeprowadzki.
+
+Użytkownik może:
+
+zalogować się na swoje konto,
+
+wrócić do wcześniej rozpoczętej przeprowadzki,
+
+sprawdzić zapisane informacje,
+
+zarządzać swoją checklistą,
+
+kontrolować kartony i budżet,
+
+wylogować się.
+
+Dzięki temu po ponownym zalogowaniu użytkownik może kontynuować planowanie dokładnie od miejsca, w którym skończył.
+
+# 19. 🔄 Główny przepływ użytkownika #
+
+Cała aplikacja opiera się na prostym przepływie:
+
+Strona główna
+
+↓
+
+Rejestracja / Logowanie
+
+↓
+
+Podanie danych przeprowadzki
+
+↓
+
+Dashboard
+
+↓
+
+Checklista + Kartony + Budżet + Organizacja
+
+↓
+
+Kontrola postępu
+
+↓
+
+Gotowa przeprowadzka
+
+# 20. 📁 Finalna struktura MoveMate #
+🏠 HOME
+
+Hero
+
+Funkcje
+
+Jak działa
+
+CTA
+
+Footer
+
+🔐 LOGIN / REGISTER
+
+Logowanie
+
+Rejestracja
+
+Reset hasła
+
+📋 DASHBOARD
+
+Postęp przeprowadzki
+
+Informacje o przeprowadzce
+
+Checklista
+
+Liczba kartonów
+
+Budżet
+
+Organizacja
+
+Szybkie akcje
+
+# 21. 🎯 Najważniejsza zasada projektu #
+
+MoveMate ma być jednym miejscem, w którym użytkownik planuje, kontroluje i organizuje całą przeprowadzkę.
+
+Zamiast korzystać z kilku różnych aplikacji, notatek, arkuszy czy list, użytkownik ma mieć wszystko w jednym, prostym i przejrzystym miejscu.
+
+MoveMate = mniej chaosu, więcej kontroli i spokojniejsza przeprowadzka.
