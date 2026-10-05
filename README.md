@@ -502,7 +502,7 @@ Zamiast korzystać z kilku różnych aplikacji, notatek, arkuszy czy list, użyt
 
 MoveMate = mniej chaosu, więcej kontroli i spokojniejsza przeprowadzka.
 
-# Komponenty # 
+# Komponenty : # 
 # 🏠 Strona główna #
 Navbar
 
