@@ -59,24 +59,152 @@
   font-weight: 700;
 }
 
+
+.hero {
+  background-color: #ededed;
+  padding: 20px;
+}
+
+.how-it-works {
+  background-color: #ededed;
+  text-align: center;
+
+}
+
+.step {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step-title {
+  margin-bottom: 30px;
+}
+
+.features {}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-up-left-primary {
+  background-color: #419c00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-up-right-secondary {
+  background-color: white;
+  color: #419c00;
+  border: green 1px solid;
+  padding: 10px 20px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.features {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.feature-title {
+  margin-top: 0;
+}
+
+.btn-footer-primary {
+  background-color: #419c00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.cta {
+  background-color: #e1f5df;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.cta-title {
+  margin-top: 0;
+  padding: 10px;
+}
+
+.cta-text {
+  padding: 10px;
+}
+
+.btn-footer-primary {
+   margin-left: 10px;
+}
+
+.footer-name {
+  color: white;
+  margin-right: 20px;
+}
+
 footer {
- display: flex;
+  display: flex;
   align-items: center;
   padding: 20px 20px;
+  background-color: #121c30;
+  justify-content: space-between;
 }
 
 .footer-nav-link-left {
   display: flex;
   gap: 35px;
-  margin-left: 80px;
-  color: black;
-  text-decoration: none; 
+  margin-left: 100px;
+  color: white;
+  text-decoration: none;
 }
 
 .footer-nav-link-right {
-   color: black;
+  color: white;
   text-decoration: none;
   font-weight: 600;
+  margin-left: nowrap;
 }
 
 .footer-nav-link-left:hover {
@@ -85,4 +213,17 @@ footer {
 
 .footer-nav-link-right:hover {
   color: #419c00;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex: 1;
+}
+
+.footer-right {
+  display: flex;
+  gap: 25px;
+  margin-left: auto;
 }
