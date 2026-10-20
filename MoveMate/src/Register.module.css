@@ -1,0 +1,76 @@
+.register {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Sing-In-Text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Create-Account {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Create-Account.migajace {
+    animation: zieloneMiganie 3s ease-in-out infinite;
+    border-radius: 12px;
+}
+
+@keyframes zieloneMiganie {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 transparent;
+    }
+
+    50% {
+        box-shadow: 0 0 20px 5px limegreen;
+    }
+}
+
+a {
+    color: #419c00;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+button {
+    width: 200px;
+    background-color: #419c00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 13px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.background {
+    background-color: #f7f7f7;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.test {
+    background-color: #f7f7f7;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
