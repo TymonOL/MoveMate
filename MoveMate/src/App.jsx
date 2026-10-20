@@ -6,7 +6,7 @@ function App() {
   return (
 <>
 <nav>
-        <Link to="/">Strona główna</Link>
+        <Link to="/">Działanie</Link>
         <Link to="/register">Rejestracja</Link>
       </nav>
 
