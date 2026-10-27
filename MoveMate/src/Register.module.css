@@ -1,4 +1,4 @@
-.register {
+/* .register {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     margin-top: 20px;
 }
 
-.Create-Account {
+.Create_Account {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -64,13 +64,337 @@ button {
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
-}
+} */
 
-.test {
-    background-color: #f7f7f7;
+/* .test {
+    /* background-color: #f7f7f7;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
+    
+        align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}  */
+
+
+/* ===== DODATKOWY WYGLĄD FORMULARZY MOVEMATE ===== */
+
+/* Nagłówki i teksty formularzy */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== USTAWIENIA STRONY ===== */
+
+:global(*) {
+    box-sizing: border-box;
 }
+
+:global(body) {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f5f8f2;
+    color: #222;
+}
+
+:global(#root) {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* ===== GŁÓWNY UKŁAD: 3 KOLUMNY ===== */
+
+:global(#root) {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.8fr) minmax(280px, 1fr) minmax(300px, 1fr);
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+}
+
+/* ===== PANEL POWITALNY PO LEWEJ ===== */
+
+:global(header) {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    min-width: 0;
+    min-height: 600px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    color: white;
+    background: linear-gradient(145deg, #419c00, #245e00);
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(32, 65, 20, 0.15);
+}
+
+:global(header h1:first-child) {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin: 0 0 45px;
+}
+
+:global(header h1:nth-child(2)) {
+    font-size: 27px;
+    line-height: 1.3;
+    margin: 0 0 18px;
+}
+
+:global(header p) {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 3px 0;
+}
+
+/* ===== KOLUMNA LOGOWANIA ===== */
+
+.background {
+    grid-column: 2;
+    grid-row: 1;
+
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent;
+}
+
+/* Karta logowania */
+
+.register {
+    width: 100%;
+    max-width: 420px;
+    min-width: 0;
+    margin: 0;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    background: #fff;
+    border: 1px solid #edf0e9;
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(32, 65, 20, 0.08);
+}
+
+/* Tekst pod logowaniem */
+
+.sing-in-text {
+    width: 100%;
+    max-width: 420px;
+    padding: 8px 10px 0;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ===== KOLUMNA REJESTRACJI ===== */
+
+.test {
+    grid-column: 3;
+    grid-row: 1;
+
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent;
+}
+
+/* Karta tworzenia konta */
+
+.Create_Account {
+    width: 100%;
+    max-width: 440px;
+    min-width: 0;
+    margin: 0;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    background: #fff;
+    border: 1px solid #edf0e9;
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(32, 65, 20, 0.08);
+}
+
+/* ===== NAGŁÓWKI I TEKSTY ===== */
+
+.register h2,
+.Create_Account h2 {
+    color: #245c16;
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0 0 8px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.register p,
+.Create_Account p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 8px 0 14px;
+}
+
+.Create_Account h4 {
+    align-self: flex-start;
+    margin: 8px 0 0;
+    color: #245c16;
+    font-size: 16px;
+}
+
+/* ===== ETYKIETY ===== */
+
+.register label,
+.Create_Account label {
+    align-self: flex-start;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+/* ===== POLA INPUT ===== */
+
+.register input:not([type="checkbox"]),
+.Create_Account input:not([type="checkbox"]) {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 12px 14px;
+
+    border: 1px solid #d9e3d5;
+    border-radius: 12px;
+    background: #fff;
+    color: #222;
+    font-size: 15px;
+    outline: none;
+
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+
+/* Aktywne pole */
+
+.register input:not([type="checkbox"]):focus,
+.Create_Account input:not([type="checkbox"]):focus {
+    border-color: #419c00;
+    background: #fcfff9;
+    box-shadow: 0 0 0 4px rgba(65, 156, 0, 0.12);
+}
+
+/* Checkboxy */
+
+.register input[type="checkbox"],
+.Create_Account input[type="checkbox"] {
+    accent-color: #419c00;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+/* ===== PRZYCISKI ===== */
+
+.register button,
+.Create_Account button {
+    align-self: center;
+    width: 100%;
+    max-width: 240px;
+    min-height: 46px;
+    margin-top: 18px;
+    padding: 12px 20px;
+
+    background: linear-gradient(135deg, #419c00, #307800);
+    color: white;
+    border: none;
+    border-radius: 12px;
+
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+
+    box-shadow: 0 5px 12px rgba(65, 156, 0, 0.2);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+.register button:hover,
+.Create_Account button:hover {
+    background: linear-gradient(135deg, #347f00, #245e00);
+    box-shadow: 0 8px 18px rgba(65, 156, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.register button:active,
+.Create_Account button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 7px rgba(65, 156, 0, 0.2);
+}
+
+/* ===== LINKI ===== */
+
+.register a,
+.Create_Account a,
+.sing-in-text a {
+    color: #419c00;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.register a:hover,
+.Create_Account a:hover,
+.sing-in-text a:hover {
+    color: #245e00;
+    text-decoration: underline;
+}
+

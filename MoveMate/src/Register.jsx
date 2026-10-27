@@ -49,7 +49,7 @@ function Register() {
 
 
        <main className={styles.test}>
-            <div className={`Create-Account ${miganie ? 'migajace' : ''}`}>
+            <div className={styles.Create_Account}>
                 <h2>Stwórz konto</h2>
                 <p>Dołącz do MoveMate i zacznij planować swoją przeprowadzkę</p>
                 <h4>Imię</h4>
