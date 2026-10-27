@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import "./App.css";
 function MainPage() {
-    return  ( <>
+    return (<>
 
         <header className="app-header">
 
@@ -37,6 +37,7 @@ function MainPage() {
                         <button className="btn-up-left-primary">Zaplanuj przeprowadzkę</button>
                         <button className="btn-up-right-secondary">Zaloguj się</button>
                     </div>
+                    <img className="Vanpacz" src="van.png.jpeg" alt="VanZpaczkami" />
                 </div>
             </section>
 
